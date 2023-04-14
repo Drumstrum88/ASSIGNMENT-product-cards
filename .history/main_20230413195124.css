@@ -1,0 +1,62 @@
+body {
+  background-color: aqua;
+}
+.card {
+  border: 1px solid lightblue;
+  width: 30%;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card header {
+  text-align: center;
+}
+
+.card section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.card section > div {
+  flex-basis: 30%;
+}
+
+.card section > div:nth-child(2) {
+  text-align: justify;
+}
+
+.card .availability {
+  background-color: darkgrey;
+  color: yellow;
+  width: 100%;
+  padding: 10px;
+}
+
+.card section:last-child {
+  border-top: 1px solid lightblue;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.card section:last-child > header {
+  text-align: center;
+}
+
+.card section:last-child > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.card section:last-child > div > div {
+  margin-bottom: 10px;
+}
+
+.card section:last-child > div > div > p {
+  font-weight: bold;
+}
