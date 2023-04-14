@@ -1,0 +1,97 @@
+body {
+  background-color: aqua;
+}
+.card {
+  border: 1px solid lightblue;
+  width: 30%;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card header {
+  text-align: center;
+}
+
+.card section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.card section > div {
+  flex-basis: 30%;
+}
+
+.card section > div:nth-child(2) {
+  text-align: justify;
+}
+
+.card .availability {
+  background-color: darkgrey;
+  color: yellow;
+  width: 100%;
+  padding: 10px;
+}
+
+.card section:last-child {
+  border-top: 1px solid lightblue;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.card section:last-child > header {
+  text-align: center;
+}
+
+.card section:last-child > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.card section:last-child > div > div {
+  margin-bottom: 10px;
+}
+
+.card section:last-child > div > div > p {
+  font-weight: bold;
+}
+
+.card-header h2, .card-img-top {
+  margin: auto;
+}
+
+/* style the title */
+.card-header {
+  border: 1px solid lightblue;
+  text-align: center;
+}
+
+/* style the product availability */
+.card-footer {
+  background-color: darkgrey;
+  color: yellow;
+  padding: 10px;
+}
+
+/* style the product specifications */
+.specs {
+  font-weight: bold;
+}
+
+/* style the pricing details */
+.price-details {
+  font-weight: bold;
+}
+
+/* set the width of the cards to fit 3 per row */
+.card {
+  width: calc(33.33% - 20px);
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+You can adjust the margins and padding as needed to achieve the desired layout. Note that the calc() function in the width property subtracts 20px from the total width to account for the 20px margin-right.

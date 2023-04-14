@@ -1,0 +1,9 @@
+.wrapper {
+  margin: auto;
+  width: 50%;
+}
+
+header h2 { 
+  border-style: solid;
+  border: 1px
+}
