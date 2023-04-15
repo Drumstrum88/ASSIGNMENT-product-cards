@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(207, 235, 235);
+  background-color: rgb(210, 228, 228);
 }
 
 .card {
@@ -39,19 +39,14 @@ body {
   font-weight: bold;
 }
 
-.card .avail {
+.card .availability {
   background-color: darkgrey;
   color: yellow;
-  display: inline-flex;
-  margin: 0;
-  padding: 0;
- 
+  padding: 5px;
+  margin-top: 10px;
 }
 
 footer {
   border-top: solid yellow;
   background-color: aqua;
-  border-style:inset;
 }
-
-

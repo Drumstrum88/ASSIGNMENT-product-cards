@@ -43,8 +43,7 @@ body {
   background-color: darkgrey;
   color: yellow;
   display: inline-flex;
-  margin: 0;
-  padding: 0;
+  
  
 }
 
@@ -53,5 +52,3 @@ footer {
   background-color: aqua;
   border-style:inset;
 }
-
-
