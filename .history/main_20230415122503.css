@@ -39,13 +39,12 @@ body {
   font-weight: bold;
 }
 
-.card .avail {
+.card .availability {
   background-color: darkgrey;
   color: yellow;
-  display: inline-flex;
-  margin: 0;
-  padding: 0;
- 
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 20px;
 }
 
 footer {
@@ -54,4 +53,7 @@ footer {
   border-style:inset;
 }
 
-
+span {
+  background-clip: darkgray;
+  justify-content: ;
+}
